@@ -1,0 +1,77 @@
+.home_about {
+    display: flex;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/bannr_.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.home_about_con {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_about_con h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.home_about_con p {
+    color: #fff;
+}
+
+.contact_2 {
+    background: #241e56;
+    border: 5px solid #ce8b42;
+    padding: 50px;
+    height: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact_2 p,i,span {
+    color: #fff;
+}
+
+.contact_2 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact_2 i {
+    margin-right: 10px;
+}
+
+.contact_2 span { 
+    font-size: 40px;
+    font-family: 'Roboto';
+}
+
+@media (max-width: 500px) {
+    .contact_2 p {
+        font-size: 16px;
+    }
+
+    .contact_2 span { 
+        font-size: 30px;
+    }
+
+    .contact_2 {
+        padding: 20px;
+    }
+}

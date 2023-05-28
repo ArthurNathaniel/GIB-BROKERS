@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Insurance Brokers</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/claim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="con">
+            <nav>
+                <div class="menu-icons">
+                    <i class="icon ion-md-menu"></i>
+                    <i class="icon ion-md-close"></i>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">About Us
+                            <i class="icon ion-md-arrow-dropdown"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="about.html">About GI Brokers</a></li>
+                            <li><a href="mission.html">Mission & Vision</a></li>
+                            <li><a href="team.html">Our Board</a></li>
+                            <li><a href="our_approach.html">Our Approach</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Claims
+                            <i class="icon ion-md-arrow-dropdown"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="claim.html">Claims</a></li>
+                            <li><a href="quote.html">Get A Quote</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="home_about">
+        <section>
+            <div class="home_about_con">
+                <h1>Claims</h1>
+                <p>At Goldstar with a team of experts and a commitment to quality, we strive to deliver excellence in
+                    everything we do. Trust us to be your partner in success.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- <section>
+        <div class="quote_con">
+            <span>Report a claim</span>
+            <p>Please use the form below to submit claims online. We will get back to you as soon as possible.</p>        
+        </div>
+    </section> -->
+
+
+    <!-- <section>
+        <div class="form_2">
+            <span>Motor Detalis</span>
+            <form action="">
+                <input type="text" placeholder="Your Full Name(Required)">
+                <input type="number" placeholder="Your Phone Number(Required)">
+                <input type="email" placeholder="Your Email(Required)">
+                <input type="date" placeholder="Date of Loss(Required)">
+                <input type="text" placeholder="Cause of Loss(Required)">
+                <textarea name="" id="" rows="10" placeholder="Description of Loss(Required)"></textarea>
+                <button class="btn">Sumit</button>
+            </form>
+        </div>
+    </section> -->
+
+    <section>
+        <div class="claims_form">
+            <div class="quote_con">
+                <span>Report a claim</span>
+                <p>Please use the form below to submit claims online. We will get back to you as soon as possible.</p>
+            </div>
+
+            <form action="email.php" method="post" id="myForm">
+                <div class="row-">
+                    <div class=" col-12 forms_input">
+                        <label>First Name:</label>
+                        <br>
+                        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name"
+                            required>
+                    </div>
+
+                    <div class=" col-12 forms_input">
+                        <label>Middle Name:</label>
+                        <br>
+                        <input type="text" id="middle_name" name="middle_name" placeholder="Enter your middle name">
+                    </div>
+
+                    <div class=" col-12 forms_input">
+                        <label>Last Name:</label>
+                        <br>
+                        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                    </div>
+                    <div class=" col-12 forms_input">
+                        <label>Address:</label>
+                        <br>
+                        <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                    </div>
+                    <div class=" col-12 forms_input">
+                        <label>Phone number:</label>
+                        <br>
+                        <input type="number" id="number" name="number" min="0" placeholder="Enter your phone number"
+                            required>
+                    </div>
+                    <div class=" col-12 forms_input">
+                        <label>Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="col-12 forms_input">
+                        <label>Type of claim</label>
+                        <br>
+                        <select name="claim_type" id="claim" required>
+                            <option value="Motor Insurance">Motor Insurance</option>
+                            <option value="Life Insurance">Life Insurance</option>
+                            <option value="Travel Insurance">Travel Insurance</option>
+                            <option value="Fire Insurance">Fire Insurance</option>
+                            <option value="Home Owners Insurance">Home Owners Insurance</option>
+                            <option value="Health Insurance">Health Insurance</option>
+                            <option value="Assets All Insurance">Assets All Insurance</option>
+                            <option value="Public Liability Insurance">Public Liability Insurance</option>
+                            <option value="Professional Indemnity Insurance">Professional Indemnity Insurance</option>
+                            <option value="Assets All Risk Insurance">Assets All Risk Insurance</option>
+                            <option value="All Bonds Insurance">All Bonds Insurance</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-3 forms input">
+                        <input type="submit" value="Submit" class="submit" onclick="sendMail()">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <div id="popup" class="popup">
+        <span class="close">&times;</span>
+        <h2>Claim Report</h2>
+        <p id="data"></p>
+    </div>
+    <style>
+        /* Style the popup container */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="con_footer">
+        <!-- Contact Section -->
+
+        <section class="contact">
+            <div data-aos="fade-down" class="contact-info">
+                <div class="first-info">
+                    <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis praesentium doloremque ab hic
+                        laborum minus provident aut perspiciatis dignissimos. Sit?</h6>
+                    <div class="icon">
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="sec-info">
+                    <h4>Other Pages</h4>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="claim.html">Claims</a></p>
+                    <p><a href="quote.html">Quotes</a></p>
+                    <p><a href="#">News</a></p>
+                    <p><a href="contact.html">Contact Us</a></p>
+                </div>
+
+                <div class="fourth-info">
+                    <h4>More</h4>
+                    <a href="services.html">
+                        <p>Motor Insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Homeowners / Renter’s insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Assets All Risks</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Fire Insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>All Bonds</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Life Insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Health Insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Travel Insurance</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Assets All</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Public Liability</p>
+                    </a>
+                    <a href="services.html">
+                        <p>Processional Indemnity</p>
+                    </a>
+                </div>
+
+                <div class="third-info">
+                    <h4>Contact</h4>
+                    <p>Mobile: 023-415-7783</p>
+                    <p>Email: ndamakye@gibrokers.com</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <section>
+            <footer class="end-text">
+                <div class="footer">
+                    <p>All copyrights reserved@Goldstar Insurance Brokers</p>
+                </div>
+            </footer>
+        </section>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script>
+        // Get the form element
+        const form = document.getElementById('myForm');
+
+        // Get the popup element
+        const popup = document.getElementById('popup');
+
+        // Get the close button
+        const closeBtn = popup.getElementsByClassName('close')[0];
+
+        // Handle form submission
+        form.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get the form data
+            const first_name = document.getElementById('first_name').value;
+            const middle_name = document.getElementById('middle_name').value;
+            const last_name = document.getElementById('last_name').value;
+            const number = document.getElementById('number').value;
+            const address = document.getElementById('address').value;
+            const email = document.getElementById('email').value;
+            const claim = document.getElementById('claim').value;
+
+            // Update the popup content
+            document.getElementById('data').innerHTML = `
+        <strong> First name:</strong> ${first_name}<br>
+        <strong>Middle name:</strong> ${middle_name} <br>
+        <strong>Last name:</strong> ${last_name} <br>
+        <strong>Phone number:</strong> ${number} <br>
+        <strong> Address:</strong> ${address} <br>
+        <strong>Email:</strong> ${email} <br>
+        <strong>Claim Type:</strong> ${claim}
+      `;
+
+            // Show the popup
+            popup.style.display = 'block';
+        });
+
+        // Close the popup when the close button is clicked
+        closeBtn.addEventListener('click', function () {
+            popup.style.display = 'none';
+        });
+    </script>
+
+    <script src="./axios.min.js"></script>
+    <script>
+
+        sendMail = () => {
+            const form = document.querySelector('form')
+
+
+            if (form.checkValidity()) {
+                let data = {
+                    first_name: document.querySelector('input[name="first_name"]').value,
+                    middle_name: document.querySelector('input[name="middle_name"]').value,
+                    last_name: document.querySelector('input[name="last_name"]').value,
+                    address: document.querySelector('input[name="address"]').value,
+                    number: document.querySelector('input[name="number"]').value,
+                    email: document.querySelector('input[name="email"]').value,
+                    claim: document.querySelector('select[name="claim_type"]').value
+                }
+
+                fetch("https://boaz.hotelipad.com/api/sr", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(data),
+                })
+                    .then((response) => {
+                        if (response.status === 200) {
+                            console.log('success')
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("Error confirming booking:", error);
+                        console.error(error);
+                    });
+
+
+            } else {
+                form.reportValidity()
+            }
+        }
+    </script>
+
+</body>
+
+</html>

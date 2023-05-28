@@ -1,0 +1,112 @@
+.home_about {
+    text-align: center;
+}
+
+.category {
+    margin-top: 50px;
+}
+
+.cate_text {
+    text-align: center;
+}
+
+.cate-pro {
+    margin-top: 50px;
+}
+
+.row {
+    height: 50vh;
+    width: 100%;
+}
+
+.row_1 h5 {
+    font-size: 23px;
+}
+
+.row_img_con {
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    padding-bottom: 20px;
+}
+
+.row_img_11 {
+    background-image: url("../img/all_bonds.jpg");
+}
+
+.row_img_10 {
+    background-image: url("../img/all_a.jpg");
+}
+
+.row_img_7 {
+    background-image: url("../img/risk.jpg");
+}
+
+.row_img_8 {
+    background-image: url("../img/public_1.jpg");
+}
+
+.row_img_1 {
+    background-image: url("../img/motor.jpg");
+}
+
+.row_img_4 {
+    background-image: url("../img/fire_2.jpg");
+}
+
+.row_img_3 {
+    background-image: url("../img/trave.jpg");
+}
+
+.row_img_2 {
+    background-image: url("../img/life.jpg");
+}
+
+.row_img_6 {
+    background-image: url("../img/health.jpg");
+}
+
+.row_img_5 {
+    background-image: url("../img/home_.jpg");
+}
+
+.row_img_9 {
+    background-image: url("../img/processional.jpg");
+}
+
+.row_text_con {
+    height: 20%;
+}
+
+.cate_text h1 {
+    font-family: 'Roboto Serif', serif;
+    color: #333;
+    font-size: 40px;
+}
+
+.home_about {
+    background-image: url("../img/banner_7.png") !important;
+}
+
+@media (max-width: 1050px) {
+    .cate-pro {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    }
+
+    .row_1 {
+        display: block;
+    }
+}
+
+@media (max-width: 773px) {
+    .cate-pro {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    }
+
+    .row_1 {
+        display: block;
+    }
+}
